@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundscreen"
+    
+    tools:context=".HomeActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:typeface="sans"
+        android:textColor="#0000CD"
+        
+        android:text="@string/wishing_app_is_a_one_stop_solution_for_all_wisher_and_greeter_"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="@string/our_life_is_very_busy_in_others_schedule_and_you_couldnt_wish_all_wishes_to_your_friends_and_family_and_felt_you_careless_about_that"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0000CD"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/btnmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:gravity="center_vertical|center"
+        android:text="@string/menu"
+        android:typeface="serif" />
+
+</RelativeLayout>
